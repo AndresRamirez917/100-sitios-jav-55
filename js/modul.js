@@ -1,5 +1,12 @@
 export function alerta(nombre) {
-    if(nombre == ""){
+    if(Number(nombre)){
+        swal({
+            title: `Solo se permiten nombre alfanuméricos`,
+            icon: "warning",
+        })
+        return false;
+    }
+    if(nombre.trim() == ""){
         swal({
             title: `Quién erés?`,
             icon: "warning",
@@ -25,4 +32,7 @@ export function alerta3(){
 export function limpiaInput(input){
     input.value = ""
 }
+
+
+
 
