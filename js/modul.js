@@ -1,8 +1,11 @@
 export function alerta() {
-    alert("Hola")
+    swal({
+        title: `Hola`,
+        icon: "success",
+         })
 }
 
 
 export function alerta2(){
-    console.log("Hola2")
+    console.log('%cMensaje Rojo', ' background: linear-gradient(blue, pink); font-size: 2rem;')
 }
