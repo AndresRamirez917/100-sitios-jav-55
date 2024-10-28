@@ -70,3 +70,5 @@ const btn_validar = document.getElementById('btn-validar').onclick = (e) => {
          mensaje.value = "";
          return true;
 }
+
+
