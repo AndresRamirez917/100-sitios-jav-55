@@ -1,0 +1,67 @@
+#mainheader {
+  text-align: center;
+}
+#mainheader .navbar .logo img {
+  margin: 0 auto;
+  text-align: center;
+  margin: 2rem 0;
+}
+#mainheader ul {
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader ul li {
+  font-size: 8px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.grid {
+  display: block;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#showcase {
+  text-align: left;
+}
+
+#showcase-2 p {
+  text-align: justify;
+}
+
+#cards .grid-box-1,
+#cards .grid-box-2,
+#cards .grid-box-3,
+#cards .grid-box-4,
+#cards .grid-box-5 {
+  grid-column: 1;
+  margin-bottom: 10px;
+}
+#cards .grid-box-1 {
+  grid-row: 1;
+}
+#cards .grid-box-2 {
+  grid-row: 2;
+}
+#cards .grid-box-3 {
+  grid-row: 3;
+}
+#cards .grid-box-4 {
+  grid-row: 4;
+}
+#cards .grid-box-5 {
+  grid-row: 5;
+}
+#cards .overlay-3 {
+  padding: 250px 0;
+}
+
+#contact h2 {
+  text-align: center;
+}
+#contact .contact-row {
+  display: block;
+}
+#contact .contact-row .contact-form form .button-2 {
+  text-align: center;
+}/*# sourceMappingURL=mobile.css.map */

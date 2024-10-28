@@ -1,0 +1,91 @@
+//mainheader
+#mainheader {
+    text-align: center;
+    .navbar {
+        .logo {
+            img {
+                margin: 0 auto;
+                text-align: center;
+                margin: 2rem 0;
+            }
+        }   
+        }
+        ul {
+            text-align: center;
+            margin: 0 auto;
+            li {
+                font-size: 8px;
+                font-weight: bolder;
+                display: inline-block;
+            }
+        }
+    
+}
+
+.grid {
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+//showcase 
+#showcase {
+    text-align: left;
+}
+
+//showcase-2
+#showcase-2 {
+    p {
+        text-align: justify;
+    }
+}
+
+//cards
+#cards {
+    .grid-box-1,
+    .grid-box-2,
+    .grid-box-3,
+    .grid-box-4,
+    .grid-box-5 {
+        grid-column: 1;
+        margin-bottom: 10px;
+    }   
+    .grid-box-1 {
+        grid-row: 1;
+    }
+    .grid-box-2 {
+        grid-row: 2;
+    }
+    .grid-box-3 {
+        grid-row: 3;
+    }
+    .grid-box-4 {
+        grid-row: 4;
+    }
+    .grid-box-5 {
+        grid-row: 5;
+    }
+
+    .overlay-3 {
+        padding: 250px 0;
+    }
+
+}
+
+//contact
+#contact {
+    h2 {
+        text-align: center;
+    }
+    .contact-row {
+        display: block;
+      
+        .contact-form {
+            form {
+                .button-2 {
+                    text-align: center ;
+                }
+            }
+           
+        }
+    }
+}
